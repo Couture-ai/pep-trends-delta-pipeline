@@ -1,0 +1,43 @@
+{
+    "raw_trends_path":"/app/notebooks/pep_dev_ready/data/raw_trends/trends_v4_updated_description",
+    "category_list": [
+    "Women - Kurtas",
+    "Women - Dresses",
+    "Women - Jeans & Jeggings",
+    "Women - Tops",
+    "Men - Tshirts",
+    "Men - Shirts",
+    "Men - Sneakers",
+    "Women - Kurta Suit Sets",
+    "Men - Jackets & Blazers",
+    "Men - Sweatshirts & Jackets",
+    "Men - Jackets & Coats",
+    "Infants - Dresses & Frocks",
+    "Girls - Dresses & Frocks",
+    "Girls - 3 Piece-Set",
+    "Girls - 2 Piece-Sets",
+    "Boys - 2P-Kurta Sets"
+  ]
+             "processed_trends_path":"/app/notebooks/pep_dev_ready/data/processed_trends/trends_v4_updated_description.csv",
+
+    "catalog_metadata_raw":"",
+    "additional_tags_metadata_path":""
+    "catalog_metadata_processed":"/data/pep/solrPlusTagsTitleData",
+    
+    "pre_filter_output_parent_dir":"/data/pep/pep_dev_ready_pipeline/v4/pre_filter/",
+    "pre_fitler_tmp":"/data/pep/tmp",
+    "model_id":"Marqo/marqo-ecommerce-embeddings-L",
+    "local_model_path":"/data/models/marqo-ecommerce-L",
+    "model_weights_path":"/data/models/marqo-ecomm-embeddings-l.pt",
+    "num_gpus":"4",
+    "batch_size":"512",
+    "catalog_token_embeddings_path":"solrPlusTagsTitleDataWithEmbeddings",
+    "pre_filter_final_output_file":"trending_tags_multitags.parquet",
+    "cateogory_wise_threshold_file":"/app/notebooks/pep_dev_ready/data/trending_tags_thresholds_v3.csv",
+
+    "ajio_embedding_model_path":"/data/models/ajio_mpnet_v6_ep3/",
+    "final_trends_output_dir":"/data/pep/pipeline_outputs/",
+    "start_date":"2026-01-16",
+    "end_date":"2026-01-23"
+}
+
